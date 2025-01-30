@@ -338,7 +338,7 @@ game.StarterGui:SetCore("ChatMakeSystemMessage", {
 
 spawn(function()
 local message = Instance.new("Message",workspace)
-message.Text = "[GAMEKILLER loaded]"
+message.Text = "[BACKDOOR GUI LOADED]"
 wait(6)
 message:Destroy()
 end)
@@ -702,11 +702,11 @@ hub.TextWrapped = true
 
 executor.Name = "executor"
 executor.Parent = Frame
-executor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+executor.BackgroundColor3 = Color3.fromRGB(25, 55, 25)
 executor.BorderColor3 = Color3.fromRGB(0, 0, 0)
 executor.BorderSizePixel = 2
 executor.Position = UDim2.new(0.195496023, 0, 0.150392473, 0)
-executor.Size = UDim2.new(0, 97, 0, 124)
+executor.Size = UDim2.new(0, 97, 0, 24)
 executor.Font = Enum.Font.Arial
 executor.Text = "Script Executer"
 executor.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -731,7 +731,7 @@ execute.BorderSizePixel = 2
 execute.Position = UDim2.new(0.852877676, 0, 0.0416464284, 0)
 execute.Size = UDim2.new(0, 53, 0, 35)
 execute.Font = Enum.Font.Arial
-execute.Text = "execute"
+execute.Text = "execte"
 execute.TextColor3 = Color3.fromRGB(0, 0, 0)
 execute.TextScaled = true
 execute.TextSize = 14.000
@@ -741,8 +741,8 @@ TextBox_2.Parent = lol2
 TextBox_2.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
 TextBox_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextBox_2.BorderSizePixel = 0
-TextBox_2.Position = UDim2.new(0.221225008, 0, 0.0372340418, 0)
-TextBox_2.Size = UDim2.new(0, 380 0, 173)
+TextBox_2.Position = UDim2.new(0.032634031, 0, 0.0372340418, 0)
+TextBox_2.Size = UDim2.new(0, 342, 0, 173)
 TextBox_2.Font = Enum.Font.SourceSansSemibold
 TextBox_2.PlaceholderText = "[Paste script here]"
 TextBox_2.Text = ""
@@ -768,7 +768,7 @@ reset.TextWrapped = true
 
 rejoin.Name = "rejoin"
 rejoin.Parent = Frame
-rejoin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rejoin.BackgroundColor3 = Color3.fromRGB(25, 25, 55)
 rejoin.BorderColor3 = Color3.fromRGB(0, 0, 0)
 rejoin.BorderSizePixel = 2
 rejoin.Position = UDim2.new(0.221225008, 0, 0.873796761, 0)
